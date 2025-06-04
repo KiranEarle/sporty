@@ -1,3 +1,5 @@
+import styles from "./input.module.css";
+
 export type InputProps = {
   label?: string;
   isValid?: string;
@@ -10,12 +12,12 @@ export type InputProps = {
 const Input = (props: InputProps) => {
   const { id, label, value, onChange, ...inputProps } = props;
   return (
-    <label htmlFor={id} className="">
-      <label htmlFor={id} className="">
+    <label htmlFor={id} className={styles.inputWrapper}>
+      <label htmlFor={id} className={styles.inputLabel}>
         {label}
       </label>
       <input
-        className=""
+        className={styles.inputField}
         onChange={onChange}
         value={value}
         id={id}
