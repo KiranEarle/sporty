@@ -2,6 +2,8 @@ Author: Kiran Earle
 
 Project: Sporty tech task
 
+Github: https://github.com/KiranEarle/sporty
+
 # Getting Started
 
 First, run the development server:
