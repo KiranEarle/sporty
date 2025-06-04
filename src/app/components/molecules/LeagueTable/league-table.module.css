@@ -1,0 +1,36 @@
+.LeagueTable {
+  color: black;
+}
+
+.LeagueTable thead {
+  height: auto;
+}
+
+.LeagueTable tbody {
+  height: auto;
+}
+
+.LeagueTable tr th {
+  height: auto;
+  width: auto;
+  padding: 12px 0;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.LeagueTable tr td {
+  height: auto;
+  width: auto;
+  padding: 12px 6px;
+  text-align: left;
+
+  /* border: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+.LeagueTable tr td {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.LeagueTable tr td:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
