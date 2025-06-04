@@ -1,37 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Author: Kiran Earle
 
-## Getting Started
+Project: Sporty tech task
+
+# Getting Started
 
 First, run the development server:
 
 ```bash
+# Run to install dependence's
+npm install
+# or
+yarn
+
+# To run locally on http://localhost:3000
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Runtime: Node@22.14.0
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# has an .nvmrc file with the version there, run:
+nvm use
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Technical decisions
 
-## Learn More
+The app is built using:
 
-To learn more about Next.js, take a look at the following resources:
+### NextJS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Easy to build SSR single page applications
+- It is a React framework
+- Provides a lot of inbuilt features that make developing and deploying the application easy.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### React
 
-## Deploy on Vercel
+- UI component library (obviously as part of NextJS).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# sporty
+Because it was a small application I just went with CSS Modules. The reason for this is:
+
+- Its a smaller app
+- I wanted to showcase that I understand how to use CSS with without preprocessors.
+- FYI, I have used Styled components, Tailwind and SCSS in other projects
+
+### AI
+
+Chat-GPT Only here and there for some styling queries.
