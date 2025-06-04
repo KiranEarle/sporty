@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-namespace */
 namespace SportyTypes {
   export type AllLeagueData = {
-    id: string;
+    idLeague: string;
     strLeague: string;
     strSport: string;
     strLeagueAlternate: string;

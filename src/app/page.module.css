@@ -1,8 +1,27 @@
 .Main {
   width: 80%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin: auto;
+  max-width: 1080px;
+  margin: 18px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.Inputs_field_container {
+  display: block;
+  gap: 2em;
+  width: 100%;
+}
+
+@media screen and (min-width: 780px) {
+  .Inputs_field_container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.Loading {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
